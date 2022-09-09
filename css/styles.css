@@ -7,6 +7,7 @@
     --contacts-footer-color: rgba(255, 255, 255, 0.6);
     --background-color-secondary-dark: #2F303A;
     --background-color-secondary-light: #F5F4FA;
+    --background-color-hero: #C4C4C4;
     --primary-background-color: #FFFFFF;
 }
 html {
@@ -156,10 +157,18 @@ ul {
 
 /* Section Hero */
 .hero {
-    background-color: var(--background-color-secondary-dark);
+    background: var(--background-color-hero);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-image.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-title {
     color: var(--secondary-text-color);
@@ -205,6 +214,12 @@ ul {
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.rectangle {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-secondary-light);
+    border-radius: mixed;
 }
 .title {
     margin-bottom: 10px;
