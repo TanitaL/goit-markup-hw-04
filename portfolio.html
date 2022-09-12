@@ -37,11 +37,19 @@
             </nav>
 
             <ul class="contacts-navigation">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+                <li>
+                    <a href="mailto:info@devstudio.com" class="contacts link">
+                        <svg class="icon-envelope" width="16px" height="12px">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+                <li>
+                    <a href="tel:+380961111111" class="contacts link">
+                        <svg class="icon-smartphone" width="10px" height="16px">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +67,7 @@
                     <li class="buttons-item"><button type="button" class="btn-link">Маркетинг</button></li>
                 </ul>
                 <ul class="portfolio">
-                    <li class="link-item">
+                    <li class="link-item shadow">
                         <a href="" class="link">
                             <img src="./images/portfolio-1.jpeg" alt="Ноутбук з прикладом веб-сторінки" width="370"
                                 height="294">
@@ -155,24 +163,62 @@
     </main>
     <!-- Футер -->
     <footer class="footer-info">
-        <div class="container">
-            <a class="logo-footer" href="./index.html"><span class="web">Web</span>Studio</a>
-            <address>
-                <div class="contacts">
+        <div class="container contacts-group">
+            <div>
+                <a class="logo-footer" href="./index.html"><span class="web">Web</span>Studio</a>
+                <div></div>
+                <address class="contacts">
                     <ul>
-                        <li>
+                        <li class="contacts-street">
                             <a href="https://goo.gl/maps/i7SVS6HkAs6WUaGS6" target="_blank" rel="noopener noreferrer"
                                 class="street">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
-                        <li>
+                        <li class="mailto">
                             <a href="mailto:info@devstudio.com" class="contacts-mail">info@devstudio.com</a>
                         </li>
                         <li>
                             <a href="tel:+380961111111" class="contacts-tel">+38 096 111 11 11</a>
                         </li>
                     </ul>
-                </div>
-            </address>
+                </address>
+            </div>
+            <div class="socials-footer">
+                <h3 class="title footer-title">ПРИЄДНУЙТЕСЬ</h3>
+                <ul class="social-links-footer">
+                    <li class="social-item-footer">
+                        <a href="" class="social-item-link-footer" target="_blank" title="Профіль інстаграм">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-footer">
+                        <a href="" class="social-item-link-footer" target="_blank" title="Профіль інстаграм">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-footer">
+                        <a href="" class="social-item-link-footer" target="_blank" title="Профіль інстаграм">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-footer">
+                        <a href="" class="social-item-link-footer" target="_blank" title="Профіль інстаграм">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
